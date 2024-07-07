@@ -1656,7 +1656,7 @@ Bind.TextColor3 = Color3.fromRGB(187, 153, 221)
 Bind.TextSize = 18.000
 
 Watermark.Name = "Watermark"
-Watermark.Parent = game.StarterGui.MainZHUB
+Watermark.Parent = MainZHUB
 Watermark.AnchorPoint = Vector2.new(1, 0.5)
 Watermark.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
 Watermark.BorderColor3 = Color3.fromRGB(0, 0, 0)
