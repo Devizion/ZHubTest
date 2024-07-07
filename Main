@@ -2239,7 +2239,7 @@ end)
 coroutine.resume(Mouse)
 
 SetFOV:GetPropertyChangedSignal("Text"):Connect(function()
-	if typeof(tonumber(SetFOV.Text))=="number" and FOV.Text~="" then
+	if typeof(tonumber(SetFOV.Text))=="number" and SetFOV.Text~="" then
 		Circle.Size=UDim2.new(0,tonumber(SetFOV.Text)*2,0,tonumber(SetFOV.Text)*2)
 	end
 end)
