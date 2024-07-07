@@ -326,7 +326,7 @@ Nameing.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Nameing.BorderSizePixel = 0
 Nameing.Position = UDim2.new(0.5, 0, 0.00999999978, 0)
 Nameing.Size = UDim2.new(0.899999976, 0, 0.0799999982, 0)
-Nameing.Font = Enum.Font.Unknown
+Nameing.Font = Enum.Font.Michroma
 Nameing.Text = "ZHUB"
 Nameing.TextColor3 = Color3.fromRGB(255, 255, 255)
 Nameing.TextScaled = true
@@ -1943,7 +1943,7 @@ local Instructions={
 		C=nil
 		if #tab>0 then
 			for _,v in tab do
-				if v[2]<min and v[2]<=tonumber(FOV.Text) then min=v[2] end
+				if v[2]<min and v[2]<=tonumber(SetFOV.Text) then min=v[2] end
 			end
 			for _,v in tab  do
 				if v[2]==min then
